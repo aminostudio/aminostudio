@@ -28,7 +28,7 @@ I build with **WordPress, PHP and JavaScript**; maintain **Linux-based hosting i
 
 | Project | Focus | Status |
 | :--- | :--- | :--- |
-| [**ChronoArchive**](https://github.com/aminostudio/chronoarchive) | WordPress chronological archives, legacy compatibility and modern QA | **Public beta**, undergoing security and release review |
+| [**ChronoArchive**](https://github.com/aminostudio/chronoarchive) | WordPress chronological archives, legacy compatibility and modern QA | **Development beta**, not released; security review ongoing |
 | **Privacy-first WordPress tooling** | Consent management and responsible third-party integrations | In development, **not released** |
 
 I believe open-source projects earn trust through readable code, transparent limitations, preserved upstream attribution and reproducible tests. A passing syntax check is a beginning, not a security certificate.
