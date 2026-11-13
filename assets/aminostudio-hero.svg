@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title desc">
+  <title id="title">Amino/STUDIO · Code with context</title>
+  <desc id="desc">Dark terminal-inspired typographic banner with cyan and acid green detailing and simple geometric circuit paths.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#06131A"/>
+      <stop offset="60%" stop-color="#08161E"/>
+      <stop offset="100%" stop-color="#041015"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#51E4F1"/>
+      <stop offset="100%" stop-color="#A6FF92"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#26434A" stroke-width="0.7" opacity="0.31" />
+    </pattern>
+    <clipPath id="clip"><rect width="1200" height="330" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#clip)">
+    <rect x="0" y="0" width="1200" height="330" fill="url(#bg)"/>
+    <rect x="0" y="0" width="1200" height="330" fill="url(#grid)"/>
+    <rect x="0" y="0" width="1200" height="4" fill="url(#accent)"/>
+    <path d="M 975 0 V 65 H 1060 V 115 H 1200 M 1010 330 V 270 H 1130 V 230 H 1200" fill="none" stroke="#49D8E5" stroke-width="2" opacity="0.26"/>
+    <path d="M 1120 0 V 93 H 1160 V 175 H 1200 M 930 330 V 292 H 1080" fill="none" stroke="#A6FF92" stroke-width="1.5" opacity="0.24"/>
+    <circle cx="1060" cy="115" r="5" fill="#51E4F1" opacity="0.64"/>
+    <circle cx="1130" cy="230" r="5" fill="#A6FF92" opacity="0.64"/>
+    <circle cx="1080" cy="292" r="4" fill="#51E4F1" opacity="0.64"/>
+    <g fill="none" stroke="url(#accent)" stroke-width="2">
+      <rect x="45" y="36" width="34" height="34" rx="7"/>
+      <path d="M 54 54 L 61 47 L 68 54 L 61 61 Z"/>
+    </g>
+    <text x="95" y="61" fill="#A9FF96" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="18" font-weight="700" letter-spacing="1.2">AMINO/STUDIO</text>
+    <text x="46" y="116" fill="#74CED3" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" letter-spacing="1.8">&gt; INDEPENDENT WEB ENGINEERING / MARSEILLE, FR</text>
+    <text x="43" y="198" fill="#E8FAF6" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="800" letter-spacing="-2.5">CODE WITH</text>
+    <text x="43" y="264" fill="url(#accent)" font-family="Arial, Helvetica, sans-serif" font-size="66" font-weight="800" letter-spacing="-2.5">CONTEXT.</text>
+    <rect x="46" y="290" width="690" height="1" fill="#39707B" opacity="0.75"/>
+    <text x="46" y="311" fill="#A6C9CA" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14" letter-spacing="0.9">WORDPRESS  /  PHP  /  JAVASCRIPT  /  SECURITY  /  OPEN SOURCE</text>
+    <g transform="translate(1004 120)" opacity="0.65">
+      <rect width="123" height="123" x="0" y="0" rx="20" fill="none" stroke="#376A70" stroke-width="1.4"/>
+      <path d="M 14 75 H 45 L 61 35 L 78 86 L 93 52 H 110" fill="none" stroke="url(#accent)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="14" cy="75" r="5" fill="#53DAE5"/><circle cx="110" cy="52" r="5" fill="#A6FF92"/>
+    </g>
+    <text x="1025" y="282" fill="#8BBDBE" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" letter-spacing="1.2">SHIP / TEST / REVIEW</text>
+  </g>
+</svg>
